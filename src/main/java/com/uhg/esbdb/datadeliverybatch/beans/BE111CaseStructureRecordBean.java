@@ -6,7 +6,7 @@ public class BE111CaseStructureRecordBean {
 	private BE111CSCustomerSectionBean be111CSCustomerSectionBean;
 	private BE111CSAddressSectionBean be111CSAddressSectionBean;
 	private BE111CSPolicySectionBean be111CSPolicySectionBean;
-	
+	private BE111CSDiscountSectionBean be111csDiscountSectionBean;
 	public BE111CSHeaderSectionBean getBe111CSHeaderSectionBean() {
 		return be111CSHeaderSectionBean;
 	}
@@ -31,13 +31,18 @@ public class BE111CaseStructureRecordBean {
 	public void setBe111CSPolicySectionBean(BE111CSPolicySectionBean be111csPolicySectionBean) {
 		be111CSPolicySectionBean = be111csPolicySectionBean;
 	}
+	public BE111CSDiscountSectionBean getBe111csDiscountSectionBean() {
+		return be111csDiscountSectionBean;
+	}
+	public void setBe111csDiscountSectionBean(BE111CSDiscountSectionBean be111csDiscountSectionBean) {
+		this.be111csDiscountSectionBean = be111csDiscountSectionBean;
+	}
 	
 	@Override
 	public String toString() {
 		return "BE111CaseStructureRecordBean [be111CSHeaderSectionBean=" + be111CSHeaderSectionBean
 				+ ", be111CSCustomerSectionBean=" + be111CSCustomerSectionBean + ", be111CSAddressSectionBean="
-				+ be111CSAddressSectionBean + ", be111CSPolicySectionBean=" + be111CSPolicySectionBean + "]";
+				+ be111CSAddressSectionBean + ", be111CSPolicySectionBean=" + be111CSPolicySectionBean
+				+ ", be111csDiscountSectionBean=" + be111csDiscountSectionBean + "]";
 	}
-	
-	
 }
