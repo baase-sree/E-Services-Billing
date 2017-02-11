@@ -1,0 +1,8 @@
+com\uhg\esbdb\datadeliverybatch\beans\BE111CSDiscountSectionBean.class
+com\uhg\esbdb\datadeliverybatch\beans\BE111CSCustomerSectionBean.class
+com\uhg\esbdb\datadeliverybatch\beans\BE111CaseStructureRecordBean.class
+com\uhg\esbdb\datadeliverybatch\beans\BE111CSAddressSectionBean.class
+com\uhg\esbdb\datadeliverybatch\beans\BE111CSPolicySectionBean.class
+com\uhg\esbdb\datadeliverybatch\beans\BE111CSDiscountBean.class
+com\uhg\esbdb\datadeliverybatch\beans\BE111CSFeeBean.class
+com\uhg\esbdb\datadeliverybatch\beans\BE111CSHeaderSectionBean.class
